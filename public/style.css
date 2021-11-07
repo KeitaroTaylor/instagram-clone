@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.clear {
+	clear: both;
+}
+
+a {
+  margin: auto;
+}
+.hidden {
+  visibility: hidden;
+}
+body{
+  padding-top:25px;
+  word-wrap:break-word;
+}
+.navbar {
+  border-bottom: 1px solid lightgrey!important;
+}
+img{
+  height: 200px;
+}
+.hidden {
+  visibility: hidden;
+}
+.card, .createPost, .profile{
+  width: 35rem;
+  margin: auto!important;
+  margin-bottom: 10%!important;
+}
+.likes {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.card p {
+  margin-bottom: 5px;
+}
+.makeComment {
+  width: 75%;
+  float: left;
+}
+.commentButton {
+  width: 25%;
+  float: left;
+}
+.card-body > p, .createPost {
+  background-color: lightgrey;
+}
+.createPost h2, .createPost input, .createPost button {
+  margin-left: 20%;
+  margin-bottom: 5px;
+}
+.username {
+  text-decoration: none;
+  background-color: lightgrey;
+  color: black;
+  font-size: 20px;
+  padding: 5px 30px;
+}
